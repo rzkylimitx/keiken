@@ -1,6 +1,5 @@
 {
-  "rewrites": [
-    { "src": "/legalitas", "dest": "/" },
-    { "src": "/(.*)", "destination": "/" }
+  "redirects": [
+    { "source": "/legalitas", "destination": "/", "permanent": true }
   ]
 }
