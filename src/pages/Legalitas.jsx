@@ -1,5 +1,5 @@
 import PDFViewer from "../components/PDFViewer";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 const Legalitas = () => {
     return (
