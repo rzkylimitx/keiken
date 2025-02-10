@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/legalitas", "destination": "/", "permanent": false }
+    { "source": "/legalitas", "destination": "/legalitas", "permanent": false }
   ]
 }
