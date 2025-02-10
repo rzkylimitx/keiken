@@ -154,12 +154,14 @@ const Hero = () => {
                             Step Into the Future of Learning <br /> Unlock Your True Potential Today
                         </p>
 
-                        <Button
-                            id="watch-trailer"
-                            title="Watch trailer"
-                            leftIcon={<TiLocationArrow />}
-                            containerClass="bg-yellow-300 flex-center gap-1"
-                        />
+                        <a href="https://youtu.be/Fqblh7EQmHA?si=j3vH5SSAuHRc6Rgo">
+                            <Button
+                                id="watch-trailer"
+                                title="Watch trailer"
+                                leftIcon={<TiLocationArrow />}
+                                containerClass="bg-yellow-300 flex-center gap-1"
+                            />
+                        </a>
                     </div>
                 </div>
             </div>

@@ -39,10 +39,9 @@ const About = () => {
                 />
 
                 <div className="about-subtext">
-                    <p>The Game of Games begins—your life, now an epic MMORPG</p>
+                    <p>Empowering the Future of Learning Through AI and Gamification</p>
                     <p className="text-gray-500">
-                        Zentry unites every player from countless games and platforms, both
-                        digital and physical, into a unified Play Economy
+                    Keiken Academy unites AI-driven education and gamification to make learning free, interactive, and accessible to all.
                     </p>
                 </div>
             </div>

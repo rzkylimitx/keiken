@@ -103,26 +103,26 @@ const Features = () => (
         <div className="container mx-auto px-3 md:px-10">
             <div className="px-5 py-32">
                 <p className="font-circular-web text-lg text-blue-50">
-                    Into the AI Based Academy
+                Into the AI-Powered Learning Academy
                 </p>
                 <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-                    Immerse yourself in a rich and ever-expanding universe where a vibrant
-                    array of products converge into an interconnected overlay experience
-                    on your world.
+                Step into a dynamic and ever-evolving platform where AI-driven education and gamification merge, creating an interactive and accessible learning experience for all
                 </p>
             </div>
 
             <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+                <a href="https://keikenacademy.vercel.app">
                 <BentoCard
                     src="videos/feature-1.mp4"
                     title={
                         <>
-                            radia<b>n</b>t
+                            kei<b>k</b>en ac<b>a</b>demy
                         </>
                     }
-                    description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+                    description="Keiken Academy is an AI-powered learning platform that provides free education through an interactive and intelligent website."
                     isComingSoon
                 />
+                </a>
             </BentoTilt>
 
             <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
@@ -134,46 +134,52 @@ const Features = () => (
                                 gifr<b>a</b>n
                             </>
                         }
-                        description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+                        description="CEO of Keiken Academy, leading innovation and growth in the industry."
                         isComingSoon
                     />
                 </BentoTilt>
 
                 <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+                    <a href="https://keikenmansion.vercel.app">
                     <BentoCard
                         src="videos/feature-3.mp4"
                         title={
                             <>
-                                n<b>e</b>xus
+                                k<b>en</b>sion
                             </>
                         }
-                        description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+                        description="Kension is a 3D gamified social hub for the Keiken community, inspired by SimCity."
                         isComingSoon
                     />
+                    </a>
                 </BentoTilt>
 
+                <a href="https://v0-kaizen-q1vzly.vercel.app/">
                 <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
                     <BentoCard
                         src="videos/feature-4.mp4"
                         title={
                             <>
-                                az<b>ri</b>l
+                                k<b>a</b>izen
                             </>
                         }
-                        description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+                        description="Kaizen is a cross-world AI agent, designed to continuously enhance learning and exploration experiences."
                         isComingSoon
                     />
                 </BentoTilt>
+                </a>
 
+                <a href="/vision-mission">
                 <BentoTilt className="bento-tilt_2">
                     <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
                         <h1 className="bento-title special-font max-w-64 text-black">
-                            M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
+                            visi<b>o</b>n and <br /> <b>m</b>issi<b>o</b>n.
                         </h1>
 
                         <TiLocationArrow className="m-5 scale-[5] self-end" />
                     </div>
                 </BentoTilt>
+                </a>
 
                 <BentoTilt className="bento-tilt_2">
                     <video
