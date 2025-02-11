@@ -125,19 +125,24 @@ const Features = () => (
                 </a>
             </BentoTilt>
 
+
             <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
+                
                 <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+                    <a href="/our-team">
                     <BentoCard
                         src="videos/feature-2.mp4"
                         title={
                             <>
-                                gifr<b>a</b>n
+                                gifr<b>a</b>n and <br /> <b>o</b>ther
                             </>
                         }
-                        description="CEO of Keiken Academy, leading innovation and growth in the industry."
+                        description="CEO of Keiken Academy, click this image to see another team"
                         isComingSoon
                     />
+                    </a>
                 </BentoTilt>
+                
 
                 <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
                     <a href="https://keikenmansion.vercel.app">
@@ -154,8 +159,9 @@ const Features = () => (
                     </a>
                 </BentoTilt>
 
-                <a href="https://v0-kaizen-q1vzly.vercel.app/">
+                
                 <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+                <a href="https://v0-kaizen-q1vzly.vercel.app/">
                     <BentoCard
                         src="videos/feature-4.mp4"
                         title={
@@ -163,14 +169,16 @@ const Features = () => (
                                 k<b>a</b>izen
                             </>
                         }
-                        description="Kaizen is a cross-world AI agent, designed to continuously enhance learning and exploration experiences."
+                        description="Kaizen is a AI agent, designed to continuously enhance learning experiences."
                         isComingSoon
                     />
+                    </a>
                 </BentoTilt>
-                </a>
+                
 
-                <a href="/vision-mission">
+                
                 <BentoTilt className="bento-tilt_2">
+                <a href="/vision-mission">
                     <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
                         <h1 className="bento-title special-font max-w-64 text-black">
                             visi<b>o</b>n and <br /> <b>m</b>issi<b>o</b>n.
@@ -178,8 +186,9 @@ const Features = () => (
 
                         <TiLocationArrow className="m-5 scale-[5] self-end" />
                     </div>
+                    </a>
                 </BentoTilt>
-                </a>
+                
 
                 <BentoTilt className="bento-tilt_2">
                     <video

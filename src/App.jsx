@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import Legalitas from "./pages/Legalitas";
 import KeikenBlocks from "./pages/keiken-blocks";
 import VisionMission from "./pages/VisionMission";
+import TeamCarousel from "./pages/TeamCarousel";
+import ContactPage from "./pages/ContactPage";
 
 function Home() {
     return (
@@ -32,6 +34,8 @@ function App() {
                 <Route path="/legalitas" element={<Legalitas />} />
                 <Route path="/keiken-blocks" element={<KeikenBlocks />} />
                 <Route path="/vision-mission" element={<VisionMission />} />
+                <Route path="/our-team" element={<TeamCarousel />} />
+                <Route path="/contact" element={<ContactPage />} />
             </Routes>
         </Router>
     );
